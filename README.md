@@ -263,6 +263,6 @@ This dashboard offers a dynamic, interactive way to analyze hotel review data, p
 
 What initially appeared to be a straightforward project turned out to be far more challenging than we anticipated, especially the dataset creation phase. Gathering and preparing high-quality review data from Booking.com required considerable effort, including overcoming scraping restrictions, managing language inconsistencies, and handling unreliable translations. These obstacles forced us to adapt constantly and apply many of the tools and techniques learned throughout the course.
 
-Despite the difficulties, the project has been an invaluable learning experience, showcasing how theoretical concepts translate into practical solutions when tackling complex real-world tasks.
+Despite the difficulties, the project has been an very enriching learning experience, showing how theoretical concepts translate into practical solutions when facing complex real-world tasks.
 
 ---
