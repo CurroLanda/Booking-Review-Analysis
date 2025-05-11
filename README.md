@@ -214,15 +214,14 @@ LDA clustering provided a more interpretable structure, with each cluster clearl
 **GloVe + LDA Concatenated Vectors**
 
 *   Best k: 2 clusters
-*   Silhouette Score: 0.0921 (value not provided in your message)
+*   Silhouette Score: 0.0921
 
 This hybrid approach aimed to combine semantic depth (GloVe) and thematic structure (LDA). While theoretically promising, the results were not substantially better than LDA alone, and clusters lacked clarity in differentiation.
 
 **TF-IDF + SVD**
 
-Best k: 6 clusters
-
-Silhouette Score: 0.0794
+*   Best k: 6 clusters
+*   Silhouette Score: 0.0794
 
 Top Terms per Cluster:
 
@@ -241,8 +240,29 @@ Despite a low silhouette score, this setup yielded the most interpretable cluste
 
 ## 6\. Dashboard
 
+The Hotel Reviews Dashboard is an interactive web application built with Dash that allows users to explore and analyze hotel review data across different countries. The dashboard includes the following key features:
+*   Choropleth Map: displays the number of reviews per country with color coding to highlight countries with the most reviews. Users can click on a country to dynamically update the rest of the dashboard, including the statistics and visuals below.
+   ![alt text](./images/map.png)
+
+*   Word Cloud: visualizes the most frequently mentioned words in reviews for the selected country. This provides a quick, intuitive view of common topics or sentiments mentioned by reviewers.
+   ![alt text](./images/wordCloud.png)
+
+*   Stats Cards: displays key statistics for the selected country, including the mean rating (average hotel rating) and the total number of reviews. These cards update dynamically based on the country selected via the map.
+
+*   LDA Topic Modeling: shows the most common topics derived from the reviews using Latent Dirichlet Allocation (LDA). It helps to uncover patterns such as satisfaction with hotel services, room conditions, amenities, and more, providing a deeper understanding of the customer feedback.
+      ![alt text](./images/LDAclusters.png)
+
+*   3D LDA Clusters: a 3D scatter plot that visualizes the distribution of LDA clusters. The clusters represent different review topics, and the 3D plot allows users to interactively explore the relationships between them.
+      ![alt text](./images/LDATopicModeling.png)
+
+This dashboard offers a dynamic, interactive way to analyze hotel review data, providing valuable insights into customer feedback across various countries.
+
 ---
 
 ## 7\. Conclusion
+
+What initially appeared to be a straightforward project turned out to be far more challenging than we anticipated, especially the dataset creation phase. Gathering and preparing high-quality review data from Booking.com required considerable effort, including overcoming scraping restrictions, managing language inconsistencies, and handling unreliable translations. These obstacles forced us to adapt constantly and apply many of the tools and techniques learned throughout the course.
+
+Despite the difficulties, the project has been an invaluable learning experience, showcasing how theoretical concepts translate into practical solutions when tackling complex real-world tasks.
 
 ---
