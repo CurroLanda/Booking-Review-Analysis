@@ -35,7 +35,7 @@ We knew that a large number of reviews would be necessary in order to complete t
 
 [Booking](https://Booking.com) offers a paid API for retrieving information that is quite restricted and in order to access a propper number of reviews, a enterprise paid subscription is required. Thankfully, by applying our knowledge on Web Analytics, we tried to Web-Scrap the page. Although it seemed very easy at first, many domains in the page were locked to webscrappers so we checked the robots.txt and analyzed which ulrs may contain useful reviews. After some deep reseach, we found a [link](https://www.booking.com/sitembk-hotel-review-index.xml) which allowed us to retrieve lots of updated .gz files that contained urls to the review pages for around 130,000 accomodations. Each provided url contained a lot of reviews, so we just scrapped the first page of them.
 
-In general terms, the review extraction is a quite slow process so parallelizing should be taken into account for further projects. Also keeping good practices in mind when scrapping exhaustively, in order to avoid issues like rate limiting, IP blocking, or excessive server load.
+In general terms, the review extraction is a quite slow process so parallelizing should be taken into account for further projects. Is important to attend good practices when scrapping exhaustively, in order to avoid issues like rate limiting, IP blocking, or excessive server load.
 
 Our approach was simple, extract the .gz file and process it sequentially. After some analysis on the review page structure we captured where the items we needed to locate where and extracted them. Although it sounds an easy task, in order to retrieve all the first page reviews from the first .gz file and less than a quarter of the second one we spent 22h. Having retrieved around 960,000 reviews we thought was sufficient for our task.
 
@@ -63,7 +63,7 @@ With our new dataset, we started to work.
 
 ### 3.0 Preprocesing Pipeline - Stage 0
 
-A exploratory analysis checking simple information about the dataset was carried out, shape. NaN's count and othe simple opperations were made in order to ensure a propper and adecuate preprocessing.
+An exploratory analysis checking simple information about the dataset was carried out, shape. NaN's count and othe simple opperations were made in order to ensure a propper and adecuate preprocessing.
 
 ### 3.1 Preprocesing Pipeline - Stage 1
 
@@ -75,7 +75,7 @@ Once this first stage of preprocessing was completed, 62,000 rows remained, read
 
 ### 3.2 Text Cleaning - Stage 2
 
-After some exploratory analysis and by inspecting some reviews, we noticed that some reviews required an extra step when cleaning the text in them, emoji removal, underscores or short and repetitive reviews only containing 'nothing'. Lowercase conversion, punctuation signs, extra underscores and digits removal where other operations carried out.
+After some exploratory analysis and by inspecting some reviews, we noticed that some of them required an extra step when cleaning the review text, emoji removal, underscores or short and repetitive reviews only containing 'nothing'. Lowercase conversion, punctuation signs, extra underscores and digits removal where other operations carried out.
 
 Once all was set, these new preprocessed and cleaned reviews were stored in a new col `clean_review`.
 
