@@ -250,10 +250,10 @@ The Hotel Reviews Dashboard is an interactive web application built with Dash th
 *   Stats Cards: displays key statistics for the selected country, including the mean rating (average hotel rating) and the total number of reviews. These cards update dynamically based on the country selected via the map.
 
 *   LDA Topic Modeling: shows the most common topics derived from the reviews using Latent Dirichlet Allocation (LDA). It helps to uncover patterns such as satisfaction with hotel services, room conditions, amenities, and more, providing a deeper understanding of the customer feedback.
-      ![alt text](./images/LDAclusters.png)
+     ![alt text](./images/LDATopicModeling.png)
 
 *   3D LDA Clusters: a 3D scatter plot that visualizes the distribution of LDA clusters. The clusters represent different review topics, and the 3D plot allows users to interactively explore the relationships between them.
-      ![alt text](./images/LDATopicModeling.png)
+     ![alt text](./images/LDAclusters.png)
 
 This dashboard offers a dynamic, interactive way to analyze hotel review data, providing valuable insights into customer feedback across various countries.
 
