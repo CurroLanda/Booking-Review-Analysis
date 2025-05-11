@@ -245,7 +245,7 @@ The Hotel Reviews Dashboard is an interactive web application built with Dash th
    ![alt text](./images/map.png)
 
 *   Word Cloud: visualizes the most frequently mentioned words in reviews for the selected country. This provides a quick, intuitive view of common topics or sentiments mentioned by reviewers.
-   ![alt text](./images/word_cloud.png)
+   ![alt text](./images/wordCloud.png)
 
 *   Stats Cards: displays key statistics for the selected country, including the mean rating (average hotel rating) and the total number of reviews. These cards update dynamically based on the country selected via the map.
 
