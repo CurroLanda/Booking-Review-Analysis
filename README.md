@@ -17,11 +17,9 @@
 *   [2\. Dataset Creation](#2-dataset-creation)
 *   [3\. Preprocessing](#3-preprocessing)
 *   [4\. Text Vectorization](#4-text-vectorization)
-*   [5\. Machine Learning Model](#5-machine-learning-model)
-*   [5\. Discussion](#5-discussion)
-*   [6\. Conclusion](#6-conclusion)
-*   [7\. References](#7-references)
-*   [8\. Appendix](#8-appendix)
+*   [5\. Machine Learning Model](#5-machine-learning-models)
+*   [6\. Dashboard](#6-dashboard)
+*   [7\. Conclusions](#7-Conclusion)
 
 ---
 
