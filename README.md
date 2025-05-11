@@ -1,4 +1,4 @@
-# 🏨 Booking Reviews' Analysis 📊📝
+# Booking Reviews' Analysis 📊📝
 
 **University:** Universidad Carlos III de Madrid  
 **Subject:** Machine Learning Applications  
